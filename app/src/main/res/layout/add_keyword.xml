@@ -7,11 +7,13 @@
     android:layout_height="match_parent"
     tools:context=".AddKeywordActivity">
     <EditText
+        android:hint="키워드"
         android:layout_marginTop="30dp"
         android:id="@+id/keykword"
         android:layout_width="200dp"
         android:layout_height="50dp"/>
     <EditText
+        android:hint="중요도"
         android:id="@+id/importance"
         android:inputType="number"
         android:layout_width="200dp"

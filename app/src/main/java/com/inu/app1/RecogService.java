@@ -10,6 +10,9 @@ import android.speech.SpeechRecognizer;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.inu.app1.Keyword.Keyword;
+import com.inu.app1.Keyword.KeywordDatabase;
+
 public class RecogService extends Service {
     SpeechRecognizer mRecognizer;
     Intent i;

@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.inu.app1.Keyword.Keyword;
+import com.inu.app1.Keyword.KeywordDatabase;
+
 public class AddKeywordActivity extends AppCompatActivity {
 
     EditText edKeyword;
